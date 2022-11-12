@@ -13,6 +13,8 @@ Server -->> Browser: Tells Browser to reload the note list by reloading itself
 
 website reloads as:
 
+
+
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
 server-->browser: HTML-code
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
