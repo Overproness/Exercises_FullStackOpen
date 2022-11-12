@@ -1,4 +1,4 @@
-mermaid
+```mermaid
 
 
 Browser -->> Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note     (With Data for the New Note)
@@ -32,3 +32,5 @@ note over browser:
 browser executes the event handler
 that renders notes to display
 end note
+
+```
