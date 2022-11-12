@@ -1,1 +1,5 @@
+sequenceDiagram
 
+Browser -->> Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa   (The data is sent as JSON)
+Server: Saves the new note in the list and does not sends any further orders
+Browser: Displays the new note in the list. 
