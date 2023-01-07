@@ -1,0 +1,15 @@
+.error-msg-1{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+    color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+.error-msg-2{
+    padding: 10px;
+    background-color: grey;
+    border: 3px solid;
+    border-radius: 5px;
+}
