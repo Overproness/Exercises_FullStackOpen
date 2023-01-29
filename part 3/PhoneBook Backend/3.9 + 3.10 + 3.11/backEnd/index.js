@@ -90,7 +90,7 @@ app.post('/api/persons', requestLogger, (request, response) => {
 })
 
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 8080
 app.listen(PORT, () => {
   console.log('Server Running on ', PORT)
 })
