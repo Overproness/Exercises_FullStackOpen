@@ -18,7 +18,7 @@ const App = () => {
   const hook = () => {
     phoneService
       .getAll()
-      .then(reponse => setPersons(reponse))
+      .then(response => setPersons(response))
   }
 
   useEffect(hook, [])
