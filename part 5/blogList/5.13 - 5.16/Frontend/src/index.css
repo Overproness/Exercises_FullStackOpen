@@ -1,0 +1,19 @@
+.notificationMsg{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: gray;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.expandedBlogs{
+    margin: 10px 0 0 10px;
+    padding: 10px 0 0 10px;
+    border: solid black 2px;
+}
+
+.notExpandedBlogs{
+    padding: 10px 0 0 10px;
+    border: solid black 2px;
+    margin: 10px 0 0 10px;
+}
